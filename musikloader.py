@@ -23,7 +23,15 @@ class musikloader:
         base_dir = Path(path)
         print(base_dir)
 
+    def hordenprinter(self):
+        """
+        printet horden weil jedes gute programm das
+        koennen muss!!!
+        """
+        print('horden')
+
 
 if __name__ == "__main__":
     ml = musikloader("horden")
+    ml.hordenprinter()
     ml.download()
